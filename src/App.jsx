@@ -3,6 +3,7 @@ import Home from './Pages/Home';
 import Chatbot from './Pages/Chatbot';
 import Analyser from './Pages/Analyser';
 import RootLayout from './Pages/RootLayout';
+import DataTable from './Pages/DataTable';
 const router = createBrowserRouter([
   {
   
@@ -13,6 +14,8 @@ const router = createBrowserRouter([
       { path: 'chatbot', element: <Chatbot /> },
       { path: 'chatbot/:id', element: <Chatbot /> },
   { path: 'analyser', element: <Analyser /> },
+  
+
     ],
 
   },
